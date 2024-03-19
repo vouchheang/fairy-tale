@@ -1,0 +1,16 @@
+body {
+  font-family: Verdana;
+  font-weight: 400;
+
+}
+
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  height: auto;
+}

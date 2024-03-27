@@ -4,8 +4,6 @@ const API_URL = "https://fairy-tale-h8ekmey95-siemhong.vercel.app/";
 
 
 
-
-
 // Simulated function to fetch fairy tales from API
 function fetchFairyTales() {
   return new Promise((resolve, reject) => {

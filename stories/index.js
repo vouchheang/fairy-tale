@@ -1,6 +1,6 @@
 let paramString = window.location.search;
 let urlParam = new URLSearchParams(paramString);
-let value = urlParam.get('name');
+let value = urlParam.get("age");
 console.log(value);
 
 // fetch api + pass value from url parameter to url
@@ -13,9 +13,11 @@ function fetchData(){
     })
     .then ((data) => {
         let card =document.getElementById("container");
-        for(let i=0 ; i<data.length;i++) {
-            if(data[i].id) {
+        
+            if(value === "all") {
+              for(let i=0 ; i<data.length;i++) {
                 card.innerHTML += `
+                <div style="width:80%;margin:auto;" >
                 <div class="card mb-3" style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4">
@@ -32,6 +34,7 @@ function fetchData(){
                 </div>
               </div>
             </div>
+          </div>
           </div>
                 
                 `;

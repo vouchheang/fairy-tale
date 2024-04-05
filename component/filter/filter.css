@@ -22,6 +22,10 @@
     border-radius: 50%;
     border: 1px solid black;
 }
+.filter-circle:focus{
+    border: 2px solid #ff994f;
+}
+
 .click-circle{
     width: 15px;
     height: 15px;

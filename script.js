@@ -42,7 +42,7 @@ fetch(url)
     }
   }
 
-  for (let i = 0; i <=5; i++) {
+  for (let i = 0; i <=7; i++) {
     if(data[i].age === '7-12'){
     card3.innerHTML += `
            

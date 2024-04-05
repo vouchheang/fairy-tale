@@ -3,4 +3,3 @@ fetch('https://fairy-tale-api-inky.vercel.app/api/fairytales')
 .then(data => console.log(data))
 .catch(error => console.error('Error:', error));
 
-f

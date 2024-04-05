@@ -1,4 +1,4 @@
-r));let params = new URLSearchParams(document.location.search);
+let params = new URLSearchParams(document.location.search);
 let age = params.get("age");
 
 console.log(age);
@@ -20,7 +20,7 @@ fetch(url)
                 <div class="each-card">
                 <div class="images"><img src="${data[i].image}"></img></div>
                 <div class="txt">
-                <a href='../stories detail/index.html?id=${data[i].id}'>${data[i].title}</a>
+                <a href='../../page/detail-page/index.html?id=${data[i].id}'>${data[i].title}</a>
                 <p>${data[i].summary}</p>
                 <div class="txt2">
                 <p>author’s name: ${data[i].author}</p>
@@ -40,7 +40,7 @@ fetch(url)
               <div class="each-card">
               <div class="images"><img src="${data[i].image}"></img></div>
               <div class="txt">
-              <a href='../stories detail/index.html?id=${data[i].id}'>${data[i].title}</a>
+              <a href='../../page/detail-page/index.html?id=${data[i].id}'>${data[i].title}</a>
               <p>${data[i].summary}</p>
               <div class="txt2">
               <p>author’s name: ${data[i].author}</p>

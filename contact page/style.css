@@ -1,0 +1,121 @@
+body{
+    width: 100%;
+    background-color:#e8ebda;
+}
+
+
+
+
+p{
+    color: #288268;
+
+}
+
+
+.fs-4{color: #288268;
+    
+
+}
+.nav-link{
+    color: #288268;
+}
+.active{
+    color: #ffffff;
+    background-color: #288268;
+    border-radius: 5px;
+
+}
+.active:hover{
+    color: rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    border-bottom: 1px solid #288268;
+    font-size: 25px;
+}
+.btitle{
+    width: 100%;
+    height: 100px;
+    margin-top:3% ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   /* font-weight: bolder; */
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.btitle h1{
+    font-size: 130px;
+   
+}
+.image-top {
+    width: 40%;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    margin-top: 4%;
+    
+    
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.form{
+    width: 30%;
+    height: 900px;
+    color: #288268;
+}
+#btn{
+    background-color: #288268;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+.b {
+    font-size: 30px;
+    color: black;
+    line-height: 5;
+    /* letter-spacing: 10px; */
+    text-align: end;
+   
+    
+}
+.box2{
+    width: 55%;
+    height: 900px;
+    border: 1px solid black;
+}
+.section{
+  /* display:inline-block; */
+   padding-top: 40px;
+}
+
+.box2-1 p{
+   font-size: 60px;
+   letter-spacing: 15px;
+   /* place-items: 20px; */
+   padding-left: 20px;
+   font-family: 'Times New Roman', Times, serif; 
+   font-weight: bolder;
+   line-height:2;  
+}
+.box2-1 h6{
+    margin-left: 7%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.box2-2 img{
+    width: 100%;
+   
+}

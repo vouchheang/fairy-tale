@@ -1,4 +1,4 @@
-r));let params = new URLSearchParams(document.location.search);
+let params = new URLSearchParams(document.location.search);
 let age = params.get("age");
 
 console.log(age);

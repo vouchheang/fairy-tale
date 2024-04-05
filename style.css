@@ -18,3 +18,48 @@ body {
   width: 100%;
   height: auto;
 }
+.card-container{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.card-container1{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.card-container2{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 30%;
+  height: 600px;
+}
+.image{
+  width: 100%;
+  height: 60%;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+.param{
+  width: 100%;
+  height: 40%;
+}
+.param h2{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.param p{
+  font-size: 15px;
+  line-height: 25px;
+}

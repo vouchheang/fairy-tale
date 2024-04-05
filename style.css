@@ -3,15 +3,97 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color:#e8ebda;
+}
+.fs-4{color: #288268;
+    
+
+}
+.nav-link{
+    color: #288268;
+}
+.active{
+    color: #ffffff;
+    background-color: #288268;
+
+}
+.active:hover{
+    color: rgb(255, 255, 255);
 }
 
-.card {
+.card1 {
   transition: transform 0.3s;
 }
-.card:hover {
+.card1:hover {
   transform: translateY(-5px);
 }
-.card img {
+.container{
+  width: 100%;
+  border-bottom: 1px solid #288268;
+  font-size: 25px;
+}
+.card1 img {
   width: 100%;
   height: auto;
+}
+.card-container{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.card-container1{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.card-container2{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.card1{
+  width: 30%;
+  height: 600px;
+  background: none;
+  border: none;
+}
+.image{
+  width: 100%;
+  height: 60%;
+
+ 
+
+}
+.image img{border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(5px 10px 10px gray);
+  border-radius: 10%;
+}
+.param{
+  width: 100%;
+  height: 40%;
+ 
+}
+.param h2{
+  margin-top: 4%;
+  font-size: 29px;
+  text-align: center;
+  font-family: "Love Ya Like A Sister", cursive;
+  font-style: normal;
+  font-weight: 400;
+  color: lightseagreen;
+
+}
+.param p{
+  font-size: 10px;
+  color: #288268;
+  text-align: center;
+  line-height: 2;
 }

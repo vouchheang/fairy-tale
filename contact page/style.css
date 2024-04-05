@@ -52,10 +52,11 @@ p{
    
 }
 .image-top {
-    width: 40%;
+    width: 50%;
     height: 200px;
     object-fit: cover;
     display: flex;
+   margin-left: 5%;
     margin-top: 4%;
     
     
